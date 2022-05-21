@@ -1,5 +1,9 @@
                                                  /*CODE IS WRITTEN IN JAVA*/
-		
+		package time;
+
+public class check {
+
+	public static void main(String[] args) {
 		long t= System.currentTimeMillis();                                  /*STARTING TIME*/
 		long end = t+1000;                               /*ENDING TIME WHICH IS EXACTLY AFTER 1 SECOND OR 1000 MILLISECOND*/
 		int count=1;                                   /*VARIABLE COUNTING THE NUMBER OF IERATIONS IN 1 SECOND*/
@@ -9,3 +13,5 @@
 		  count++;
 		  
 		}
+	}
+}
